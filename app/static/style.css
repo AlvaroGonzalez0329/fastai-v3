@@ -1,5 +1,5 @@
 body {
-    background-color: #fff;
+    background-color: #FEF6F4;
 }
 
 .no-display {
@@ -7,7 +7,9 @@ body {
 }
 
 .center {
+    /* Espaciado desde el objeto hacia afuera */
     margin: auto;
+    /* espacio del recuadro hacia adentro (vertical horizontal)*/
     padding: 10px 50px;
     text-align: center;
     font-size: 14px;
@@ -42,11 +44,11 @@ body {
 button.choose-file-button {
     width: 200px;
     height: 40px;
-    border-radius: 2px;
+    border-radius: 10px;
     background-color: #ffffff;
-    border: solid 1px #7052CB;
+    border: solid 1px #FF3922;
     font-size: 13px;
-    color: #7052CB;
+    color: #CC2C1B;
 }
 
 button.analyze-button {
@@ -54,11 +56,15 @@ button.analyze-button {
     height: 40px;
     border: solid 1px #7052CB;
     border-radius: 2px;
-    background-color: #7052CB;
+    background-color: #CC2C1B;
     font-size: 13px;
     color: #ffffff;
 }
 
 button:focus {
     outline: 0;
+}
+
+button:hover {
+    box-shadow: 5px 10px 18px #AAA;
 }
