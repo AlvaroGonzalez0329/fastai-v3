@@ -66,5 +66,5 @@ button:focus {
 }
 
 button:hover {
-    box-shadow: 5px 10px 18px #AAA;
+    box-shadow: 1px 1px 10px  #888;
 }
