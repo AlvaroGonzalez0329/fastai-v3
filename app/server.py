@@ -9,8 +9,8 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1mdMWNc5NHXkNBWzXeAzwp3HX5DAh3kyF'
-export_file_name = 'export.pkl'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1X9bxZBZ8HhaPAN0CF1WsNSXLLKnph6Cw'
+export_file_name = 'xray_covi19.pkl'
 
 classes = ['apple', 'cherry', 'strawberry']
 path = Path(__file__).parent
