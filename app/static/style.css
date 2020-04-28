@@ -13,6 +13,7 @@ body {
     padding: 10px 50px;
     text-align: center;
     font-size: 14px;
+    color: #F1EFFA;
 }
 
 .title {
@@ -46,7 +47,7 @@ button.choose-file-button {
     height: 40px;
     border-radius: 10px;
     background-color: #ffffff;
-    border: solid 1px #FF3922;
+    border: solid 1px #2000A2;
     font-size: 13px;
     color: #3300FF;
 }
